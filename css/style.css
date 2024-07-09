@@ -1,0 +1,226 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Azeret Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* extra style */
+.section-content{
+    padding: 48px;
+}
+.section-content h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.section-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 34px 0 40px 0;
+
+}
+/* nav bar start */
+.nav-bar{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 3px solid red;
+   
+    
+    
+}
+
+.nav-item{
+    width: 1440px;
+    height: 100px;
+    padding:47px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid blue;
+   
+    
+}
+.logo p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.resume-btn{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+padding: 17px 24px 17px 24px;
+opacity: 0.8;
+}
+.resume-btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* banner-section */
+.banner-section{
+width: 1440px;
+height: 652px;
+margin: 0 auto;
+border: 3px solid red;
+background-image: url("../assets/Hero-bg.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 74px;
+}
+.banner-content{
+width: 1440px;
+height: 652px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 26px 0;
+    
+}
+
+.banner-content h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+padding: 32px 0 24px 0;
+}
+.banner-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+padding-bottom: 32px;
+
+
+}
+.banner-content button{
+padding: 21px 24px 21px 24px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+}
+.banner-content a{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+/* Why Web Development?? */
+.web-development-section{
+    width: 1440px;
+    height: 1650px;
+   margin: 0 auto;
+    border: 3px solid red;
+    padding: 40px 50px;
+   
+
+background: rgba(13, 19, 33, 0.02);
+  
+
+}
+.codeing-challenge{
+    width: 1150px;
+height: 1100px;
+margin: 0 auto;
+
+}
+
+
+.coding-inspriation{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    padding: 68px;
+    margin-bottom: 48px;
+    
+    
+   
+}
+.coding-details h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.coding-details p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin: 16px 0 32px 0;
+}
+.coding-details button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+
+}
+.coding-details a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+}
+.coding-details{
+    width: 60%;
+}
+.coding-image {
+    width: 40%;
+}
