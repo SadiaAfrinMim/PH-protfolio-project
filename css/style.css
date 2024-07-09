@@ -150,9 +150,19 @@ background: rgb(13, 19, 33);
 .web-development-section{
     width: 1440px;
     height: 1650px;
+    margin: 0 auto;
+    border: 3px solid greenyellow;
+
+
+    
+}
+.develop-section-color{
+    width: 1300px;
+    height: 1650px;
    margin: 0 auto;
     border: 3px solid red;
     padding: 40px 50px;
+    border-radius: 16px;
    
 
 background: rgba(13, 19, 33, 0.02);
@@ -174,6 +184,7 @@ margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
     
     padding: 68px;
     margin-bottom: 48px;
@@ -223,4 +234,206 @@ text-decoration: none;
 }
 .coding-image {
     width: 40%;
+}
+/* My Inspiration */
+
+.inspiration-section{
+   
+    width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 80px 0 150px 0;
+    border: 3px solid red;
+    margin-top: 74px;
+   
+}
+.video-section{
+    width: 1300px;
+height: 550px;
+margin: 0 auto;
+border: 3px solid blue;
+padding: 32px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 16px;
+
+
+}
+.video-section iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+/*  <!-- My Current Target --> */
+.current-target{
+  
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    border: 3px solid goldenrod;
+   
+}
+.current-target-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 24px;
+
+
+}
+.target-logo{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.logo-1{
+    width: 33.33%;
+   
+
+background: rgba(255, 76, 30, 0.05);
+}
+.logo-2{
+    width: 33.33%;
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.logo-3{
+    width: 33.33%;
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.course-logo h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+padding: 24px 0 10px 0;
+}
+.course-logo p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 24px;
+
+}
+.course-logo a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* my-target-section */
+.my-target-section{
+    margin: 100px 0;
+}
+.next-target{
+    width: 1300px;
+    height: 1150px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+.react-js{
+    width: 1300px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+margin-bottom: 24px;
+padding: 40px;
+
+background: rgb(255, 255, 255);
+}
+.react-js img
+{
+    padding-right: 30px;
+}
+/* search-bar */
+.search-bar{
+    width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: 3px solid red;
+   
+
+
+}
+.bar-section{
+    width: 1300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-color{
+    color: white;
+}
+.text-color input[type= "text"]{
+    width: 80%;
+    padding: 19px 22px;
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+
+
+}
+.text-color button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px 17px 20px;border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.text-color h2{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.text-color p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding: 16px 0 24px 0 ;
 }
